@@ -1,0 +1,80 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianProWebServis.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             x:DataType="viewModels:SelectOrderViewModel"
+             x:Class="GuardianProWebServis.Views.SelectOrderView">
+    
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>
+        <Style Selector="Image">
+            <Setter Property="Height" Value="250"/>
+            <Setter Property="Margin" Value="50, 25, 50,25 "/>
+        </Style>
+        <Style Selector="Border">
+            <Setter Property="CornerRadius" Value="25"/>
+            <Setter Property="Background" Value="DarkGray"/>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="25"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+    </UserControl.Styles>
+    
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Horizontal">
+            <Button Command="{Binding GoToPersonalVisit}">
+                <Button.Styles>
+                    <Style Selector="Button">
+                        <Setter Property="Template">
+                            <ControlTemplate>
+                                <Border>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Image Source="/Assets/User.png"/>
+                                        <TextBlock Text="Индивидуальная"
+                                                   HorizontalAlignment="Center"/>
+                                    </StackPanel>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter>
+                    </Style>
+                </Button.Styles>
+            </Button>
+            <Button Command="{Binding GoToGroupVisit}">
+                <Button.Styles>
+                    <Style Selector="Button">
+                        <Setter Property="Template">
+                            <ControlTemplate>
+                                <Border>
+                                    <StackPanel VerticalAlignment="Center">
+                                        <Image Source="/Assets/GroupUsers.png"/>
+                                        <TextBlock Text="Групповая"
+                                                   HorizontalAlignment="Center"/>
+                                    </StackPanel>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter>
+                    </Style>
+                </Button.Styles>
+            </Button>
+        </StackPanel>
+        <Button Content="Выйти"
+                Command="{Binding GoToAuthorization}"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Background="White"/>
+        <Button Content="Заявки"
+                Command="{Binding GoToAllOrderUser}"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="White"/>
+    </Grid>
+</UserControl>

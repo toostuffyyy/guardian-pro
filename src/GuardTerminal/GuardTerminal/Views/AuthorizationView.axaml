@@ -1,0 +1,68 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardTerminal.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             MinWidth="800" MinHeight="600"
+             x:DataType="viewModels:AuthorizationViewModel"
+             x:Class="GuardTerminal.Views.AuthorizationView">
+    
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style Selector="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Margin" Value="15"/>
+            <Setter Property="Grid.Column" Value="1"/>
+        </Style>
+        <Style Selector="ComboBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Margin" Value="15"/>
+            <Setter Property="Grid.Column" Value="1"/>
+        </Style>
+    </UserControl.Styles>
+    
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <!--Row 0-->
+        <TextBlock Grid.Row="0" Text="Тип пользователя"/>
+        <ComboBox Grid.Row="0" Items="{Binding TypeUserDto}" 
+                  SelectedItem="{Binding SelectedTypeUser}"/>
+        <!--Row 1-->
+        <TextBlock Grid.Row="1" Text="Логин"/>
+        <TextBox Grid.Row="1" Text="{Binding AuthorizationEmployeeDto.Login}" Watermark="Введите логин" />
+        <!--Row 2-->
+        <TextBlock Grid.Row="2" Text="Пароль"/>
+        <TextBox Grid.Row="2" Text="{Binding AuthorizationEmployeeDto.Passwod}" Watermark="Введите пароль"/>
+        <!--Row 3-->
+        <TextBlock Grid.Row="3" Text="Секретное слово"/>
+        <TextBox Grid.Row="3" Text="{Binding AuthorizationEmployeeDto.SecretWord}" Watermark="Введите секретное слово"/>
+        <!--Row 4-->
+        <Button Grid.Row="4"
+                Grid.ColumnSpan="2"
+                Content="Войти в систему"
+                BorderBrush="Black"
+                FontSize="20"
+                Command="{Binding AuthorizationCommand}"
+                Margin="25"
+                HorizontalAlignment="Center"/>
+    </Grid>
+</UserControl>

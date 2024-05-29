@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\viewmodels\\listordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\viewmodels\\listordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\views\\authorizationview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\views\\authorizationview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\views\\visitorsorderwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\views\\visitorsorderwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\views\\listordersview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\views\\listordersview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\viewmodels\\visitorsorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\viewmodels\\visitorsorderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 2\\terminalemployeegeneraldivision\\terminalemployeegeneraldivision\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD4A1F47-D047-4430-B341-0B261D183911}|TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision.csproj|solutionrelative:terminalemployeegeneraldivision\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListOrdersViewModel.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\ListOrdersViewModel.cs",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\ViewModels\\ListOrdersViewModel.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\ListOrdersViewModel.cs",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\ViewModels\\ListOrdersViewModel.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:34:00.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:33:13.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListOrdersView.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\ListOrdersView.axaml",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\Views\\ListOrdersView.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\ListOrdersView.axaml",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\Views\\ListOrdersView.axaml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:22:50.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\ViewModels\\AuthorizationViewModel.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\ViewModels\\AuthorizationViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:18:39.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorizationView.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\AuthorizationView.axaml",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\Views\\AuthorizationView.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\AuthorizationView.axaml",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\Views\\AuthorizationView.axaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:18:25.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VisitorsOrderViewModel.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\VisitorsOrderViewModel.cs",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\ViewModels\\VisitorsOrderViewModel.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\VisitorsOrderViewModel.cs",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\ViewModels\\VisitorsOrderViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:13:44.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:13:40.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\Views\\MainWindow.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\Views\\MainWindow.axaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:10:30.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VisitorsOrderWindow.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\VisitorsOrderWindow.axaml",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\Views\\VisitorsOrderWindow.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\Views\\VisitorsOrderWindow.axaml",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\Views\\VisitorsOrderWindow.axaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:10:27.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\App.axaml",
+              "RelativeDocumentMoniker": "TerminalEmployeeGeneralDivision\\App.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 2\\TerminalEmployeeGeneralDivision\\TerminalEmployeeGeneralDivision\\App.axaml",
+              "RelativeToolTip": "TerminalEmployeeGeneralDivision\\App.axaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:10:39.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

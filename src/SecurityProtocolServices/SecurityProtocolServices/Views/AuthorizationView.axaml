@@ -1,0 +1,44 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:SecurityProtocolServices.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="650"
+             x:DataType="viewModels:AuthorizationViewModel"
+             x:Class="SecurityProtocolServices.Views.AuthorizationView">
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="0,5,0,5"/>
+        </Style>
+        <Style Selector="TextBox">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Margin" Value="0,5,0,5"/>
+        </Style>
+        <Style Selector="ComboBox">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="0,5,0,5"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Height" Value="40"/>
+        </Style>
+    </UserControl.Styles>
+    <StackPanel Orientation="Vertical"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+        <TextBlock Text="Роль"/>
+        <ComboBox Items="{Binding Posts}" SelectedItem="{Binding SelectedPost}"/>
+        <TextBlock Text="Логин"/>
+        <TextBox Text="{Binding Login}"/>
+        <TextBlock Text="Пароль"/>
+        <TextBox Text="{Binding Password}" PasswordChar="*"/>
+        <TextBlock Text="Секретное слово"/>
+        <TextBox Text="{Binding SecretWord}"/>
+        <Button Content="Войти"
+                HorizontalAlignment="Center"
+                FontSize="18"
+                Command="{Binding SingIn}"
+                Margin="0,15,0,0"/>
+    </StackPanel>
+</UserControl>

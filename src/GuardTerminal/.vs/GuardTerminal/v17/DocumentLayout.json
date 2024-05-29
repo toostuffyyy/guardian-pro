@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\views\\accesscontrolview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\views\\accesscontrolview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\views\\authorizationview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\views\\authorizationview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\views\\authorizationview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\views\\authorizationview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\views\\accesscontrolview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\views\\accesscontrolview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\viewmodels\\authorizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 4\\guardterminal\\guardterminal\\views\\accesscontrolview.axaml||{52A100FB-4151-3710-80C3-8B555898AD56}",
+      "RelativeMoniker": "D:0:0:{1F467AE3-29ED-4050-A2F8-0E9F75435C76}|GuardTerminal\\GuardTerminal.csproj|solutionrelative:guardterminal\\views\\accesscontrolview.axaml||{52A100FB-4151-3710-80C3-8B555898AD56}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "GuardTerminal\\Views\\MainWindow.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "GuardTerminal\\Views\\MainWindow.axaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-21T10:52:57.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccessControlView.axaml.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AccessControlView.axaml.cs",
+              "RelativeDocumentMoniker": "GuardTerminal\\Views\\AccessControlView.axaml.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AccessControlView.axaml.cs",
+              "RelativeToolTip": "GuardTerminal\\Views\\AccessControlView.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:10:18.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "GuardTerminal\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "GuardTerminal\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:10:10.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationView.axaml.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AuthorizationView.axaml.cs",
+              "RelativeDocumentMoniker": "GuardTerminal\\Views\\AuthorizationView.axaml.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AuthorizationView.axaml.cs",
+              "RelativeToolTip": "GuardTerminal\\Views\\AuthorizationView.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:09:39.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "GuardTerminal\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "GuardTerminal\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:54:18.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccessControlView.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AccessControlView.axaml",
+              "RelativeDocumentMoniker": "GuardTerminal\\Views\\AccessControlView.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AccessControlView.axaml",
+              "RelativeToolTip": "GuardTerminal\\Views\\AccessControlView.axaml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAACwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:44:55.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorizationView.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AuthorizationView.axaml",
+              "RelativeDocumentMoniker": "GuardTerminal\\Views\\AuthorizationView.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AuthorizationView.axaml",
+              "RelativeToolTip": "GuardTerminal\\Views\\AuthorizationView.axaml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAD8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:44:42.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthorizationViewModel.cs",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeDocumentMoniker": "GuardTerminal\\ViewModels\\AuthorizationViewModel.cs",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\ViewModels\\AuthorizationViewModel.cs",
+              "RelativeToolTip": "GuardTerminal\\ViewModels\\AuthorizationViewModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T02:45:11.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccessControlView.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AccessControlView.axaml",
+              "RelativeDocumentMoniker": "GuardTerminal\\Views\\AccessControlView.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 4\\GuardTerminal\\GuardTerminal\\Views\\AccessControlView.axaml",
+              "RelativeToolTip": "GuardTerminal\\Views\\AccessControlView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-14T02:44:36.351Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

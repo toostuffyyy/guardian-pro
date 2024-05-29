@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ftp_server" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ftp_server">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/GuardianProAPI.sln" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/GuardianProAPI.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Context/DataBaseContext.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Controllers/AuthorizationController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Controllers/DivisionController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Controllers/EmployeeController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Controllers/OrderController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Authorization.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Departament.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Division.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Document.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Employee.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Order.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Status.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/TypeOrder.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/UserEmail.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Entities/Visitor.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/AuthorizationDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/CodeEmployeeDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/CreateOrderDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/LoginPasswordDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/OrderDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/RegistrationDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/TypeOrderDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/UserEmailDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/UserIdDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/VisitorDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/StatusDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/DivisionDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/ModelsDTO/EmployeeDTO.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Properties/launchSettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/obj/Debug/net7.0/GuardianProAPI.GlobalUsings.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/obj/Debug/net7.0/GuardianProAPI.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/obj/Debug/net7.0/GuardianProAPI.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/Program.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/appsettings.Development.json" web="/" />
+            <mapping local="$PROJECT_DIR$/GuardianProAPI/appsettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/../../../../../Program Files/dotnet/sdk/7.0.203/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_7_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

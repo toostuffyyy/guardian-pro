@@ -1,0 +1,79 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:SecurityProtocolServices.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="650"
+             x:DataType="viewModels:ManageSecuriryViewModel"
+             x:Class="SecurityProtocolServices.Views.ManageSecuriryView">
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        <Style Selector="TabItem:selected">
+            <Setter Property="Background" Value="#2eb8e6"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="15,15,0,0"/>
+        </Style>
+    </UserControl.Styles>
+    <Grid>
+        <StackPanel Orientation="Vertical" 
+                    Margin="5"
+                    VerticalAlignment="Top" 
+                    HorizontalAlignment="Right">
+            <Button Content="Выйти" Command="{Binding GoBack}"/>
+            <TextBlock Text="{Binding User.IdNavigation}"
+                       Margin="0,5,0,0"
+                       VerticalAlignment="Center"/>
+        </StackPanel>
+        <TabControl Margin="25">
+            <TabItem Header="Верификация">
+                <Grid>
+                    <DataGrid Items="{Binding Users}" Margin="50">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn IsReadOnly="True" Header="Фамилия" Binding="{Binding LastName}"/>
+                            <DataGridTextColumn IsReadOnly="True" Header="Имя" Binding="{Binding Name}"/>
+                            <DataGridTextColumn IsReadOnly="True" Header="Отчество" Binding="{Binding Patronymic}"/>
+                            <DataGridTextColumn IsReadOnly="True" Header="Должность" Binding="{Binding Post.Name}"/>
+                            <DataGridTemplateColumn Header="Тип пользователя">
+                                <DataTemplate>
+                                    <ComboBox Items="{Binding RelativeSource={RelativeSource AncestorType=UserControl}, 
+                                        Path=DataContext.TypeUsers}"
+                                              SelectedItem="{Binding TypeUser}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="Логин" Binding="{Binding AuthorizationGuard.Login}"/>
+                            <DataGridTextColumn Header="Пароль" Binding="{Binding AuthorizationGuard.Passwod}"/>
+                            <DataGridTextColumn Header="Секретное слово" Binding="{Binding AuthorizationGuard.SecretWord}"/>
+                            <DataGridCheckBoxColumn Header="Одобрить" Binding="{Binding Approved}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Content="Одобрить"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Bottom"
+                            Command="{Binding Approv}"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Мандаты">
+                <Grid>
+                    <DataGrid Items="{Binding MandateUsers}" Margin="50">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
+                            <DataGridTextColumn Header="Имя" Binding="{Binding Name}"/>
+                            <DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}"/>
+                            <DataGridTextColumn Header="Должность" Binding="{Binding Post.Name}"/>
+                            <DataGridCheckBoxColumn Header="Добавление данных" Binding="{Binding AddDataRute}"/>
+                            <DataGridCheckBoxColumn Header="Просмотр данных" Binding="{Binding LookDataRute}"/>
+                            <DataGridCheckBoxColumn Header="Формирование отчетов" Binding="{Binding ReportRute}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button Content="Применить"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Bottom"
+                            Command="{Binding Mandates}"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

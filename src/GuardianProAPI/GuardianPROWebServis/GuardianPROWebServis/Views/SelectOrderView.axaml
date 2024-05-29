@@ -1,0 +1,90 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="clr-namespace:GuardianPROWebServis.Views"
+             xmlns:viewModels="clr-namespace:GuardianPROWebServis.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:DataType="viewModels:SelectOrderViewModel"
+             x:Class="GuardianPROWebServis.Views.SelectOrderView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--Top-->
+        <Grid Margin="20">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/Assets/Logo.png" Height="40"/>
+                <TextBlock Text="Название компании"
+                           VerticalAlignment="Center"
+                           Margin="5,0,0,0"
+                           FontWeight="Black"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Height="30" 
+                        Content="Заявки"
+                        Command="{Binding GoToAllOrders}"
+                        Background="White"
+                        Margin="0,0,5,0"/>
+                <Button Height="30" 
+                        Command="{Binding GoToAuthorization}"
+                        Content="Выйти"
+                        Background="White"/>
+            </StackPanel>
+        </Grid>
+        <!--Body-->
+        <Grid Grid.Row="1"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal">
+                <!--Personal-->
+                <Button Width="200"
+                        Height="200"
+                        Margin="15"
+                        Command="{Binding GoToPersonalVisit}">
+                    <Button.Styles>
+                        <Style Selector="Button">
+                            <Setter Property="Template">
+                                <ControlTemplate>
+                                    <Border Background="#d9d9d9"
+                                            CornerRadius="10">
+                                        <StackPanel VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center">
+                                            <Image Source="/Assets/User.png" Height="100"
+                                                   Margin="0,0,0,10"/>
+                                            <TextBlock Text="Личное посещение"/>
+                                        </StackPanel>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter>
+                        </Style>
+                    </Button.Styles>
+                </Button>
+                <!--Group-->
+                <Button Width="200"
+                        Height="200"
+                        Margin="15"
+                        Command="{Binding GoToGroupVisit}">
+                    <Button.Styles>
+                        <Style Selector="Button">
+                            <Setter Property="Template">
+                                <ControlTemplate>
+                                    <Border Background="#d9d9d9"
+                                            CornerRadius="10">
+                                        <StackPanel VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center">
+                                            <Image Source="/Assets/Users.png" Height="100"
+                                                   Margin="0,0,0,10"/>
+                                            <TextBlock Text="Групповое посещение"/>
+                                        </StackPanel>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter>
+                        </Style>
+                    </Button.Styles>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

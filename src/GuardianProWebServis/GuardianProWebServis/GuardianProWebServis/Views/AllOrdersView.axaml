@@ -1,0 +1,22 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianProWebServis.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             x:DataType="viewModels:AllOrdersViewModel"
+             x:Class="GuardianProWebServis.Views.AllOrdersView">
+    
+    <StackPanel Orientation="Vertical">
+        <Button Content="Выйти" Command="{Binding GoBack}"/>
+        <DataGrid Items="{Binding OrderDto}" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Тип" Binding="{Binding TypeOrder.Name}"/>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Status.Name}"/>
+                <DataGridTextColumn Header="Подразделение" Binding="{Binding Employees.DivisionId}"/>
+                <DataGridTextColumn Header="Дата начала" Binding="{Binding StartDate, StringFormat={}{0:dd.MM.yyyy}}"/>
+                <DataGridTextColumn Header="Дата окончания" Binding="{Binding EndDate, StringFormat={}{0:dd.MM.yyyy}}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,32 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:GuardianProWebServis.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             x:Class="GuardianProWebServis.Views.MainView"
+             x:DataType="vm:MainViewModel">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--Header-->
+        <Grid>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center">
+                <Image Source="/Assets/avalonia-logo.ico" Width="50"/>
+                <TextBlock Text="Название компании"
+                           VerticalAlignment="Center"
+                           Margin="15,0,0,0"
+                           FontSize="20"/>
+            </StackPanel>
+        </Grid>
+        <!--ContentControl-->
+        <ContentControl Grid.Row="1" Content="{Binding SelectedViewModel}"/>
+        <StackPanel Name="NotificationPanel"
+                    Width="300"
+                    HorizontalAlignment="Right"/>
+    </Grid>
+</UserControl>

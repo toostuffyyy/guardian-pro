@@ -1,0 +1,65 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:TerminalEmployeeGeneralDivision.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1980" d:DesignHeight="1080"
+             x:DataType="viewModels:ListOrdersViewModel"
+             x:Class="TerminalEmployeeGeneralDivision.Views.ListOrdersView">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <!--Row 0-->
+        <Grid Margin="15">
+            <TextBlock Text="Название компании"/>
+            <Button Content="Выйти"
+                    HorizontalAlignment="Right"
+                    Background="White"/>
+        </Grid>
+        <!--Row 1-->
+        <Grid  Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <!--Row 0-->
+            <Grid>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Фильтрация:"
+                               VerticalAlignment="Center"
+                               FontSize="15"/>
+                    <ComboBox Items="{Binding TypeOrder}" Width="100" Margin="15,0,15,0" />
+                    <ComboBox Items="{Binding Status}" Width="100"/>
+                    <ComboBox Items="{Binding Employees.Divisions}" Width="100" Margin="15,0,15,0" />
+                    <Button Content="Применить" Command="{Binding FilterOrdersCommand}"/>
+                </StackPanel>
+            </Grid>
+            <!--Row 1-->
+            <DataGrid Grid.Row="1" 
+                      Items="{Binding OrderDto}"
+                      Margin="15">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Поздразделение" Binding="{Binding Employees.Divisions.Name}"/>
+                    <DataGridTextColumn Header="Тип" Binding="{Binding TypeOrder.Name}"/>
+                    <DataGridTextColumn Header="Статус" Binding="{Binding Status.Name}"/>
+                    <DataGridTextColumn Header="Дата начала" Binding="{Binding StartDate}"/>
+                    <DataGridTextColumn Header="Дата окончания" Binding="{Binding EndDate}"/>
+                    <DataGridTextColumn Header="Цель посещения" Binding="{Binding GoalVisit}"/>
+                    <DataGridTemplateColumn Header="Подробная информация">
+                        <DataTemplate>
+                            <Button CommandParameter="{Binding RelativeSource={RelativeSource DataContext}}" 
+                                    Command="{Binding RelativeSource={ RelativeSource AncestorType=UserControl},
+                                    Path=DataContext.GetVisitorsInfo}"
+                                    Content="Подробная информация"
+                                    Background="Transparent"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

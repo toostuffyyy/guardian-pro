@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="TerminalEmployeeGeneralDivision/App.axaml" value="TerminalEmployeeGeneralDivision/TerminalEmployeeGeneralDivision.csproj" />
+        <entry key="TerminalEmployeeGeneralDivision/Views/Authorization.axaml" value="TerminalEmployeeGeneralDivision/TerminalEmployeeGeneralDivision.csproj" />
+        <entry key="TerminalEmployeeGeneralDivision/Views/AuthorizationView.axaml" value="TerminalEmployeeGeneralDivision/TerminalEmployeeGeneralDivision.csproj" />
+        <entry key="TerminalEmployeeGeneralDivision/Views/ListOrdersView.axaml" value="TerminalEmployeeGeneralDivision/TerminalEmployeeGeneralDivision.csproj" />
+        <entry key="TerminalEmployeeGeneralDivision/Views/MainWindow.axaml" value="TerminalEmployeeGeneralDivision/TerminalEmployeeGeneralDivision.csproj" />
+        <entry key="TerminalEmployeeGeneralDivision/Views/VisitorsOrderWindow.axaml" value="TerminalEmployeeGeneralDivision/TerminalEmployeeGeneralDivision.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

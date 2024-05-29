@@ -1,0 +1,46 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianProWebServis.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             x:DataType="viewModels:RegistrationViewModel"
+             x:Class="GuardianProWebServis.Views.RegistrationView">
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style Selector="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="0,15, 0,15 "/>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="Margin" Value="0,10, 0,10"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+    </UserControl.Styles>
+    
+    <Grid>
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <TextBlock Text="Email:"/>
+            <TextBox Text="{Binding RegistrationDto.Email}" Watermark="ivan@yandex.ru"/>
+            <TextBlock Text="Логин:"/>
+            <TextBox Text="{Binding RegistrationDto.Login}" Watermark="ivan123"/>
+            <TextBlock Text="Пароль:"/>
+            <TextBox Text="{Binding RegistrationDto.Password}" Watermark="Wryh!753=" PasswordChar="*"/>
+            <Button Content="Зарегистрироваться"
+                    Command="{Binding RegistrationCommand}"/>
+        </StackPanel>
+        <Button Content="Назад"
+                Command="{Binding GoToAuthorization}"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="15"/>
+    </Grid>
+</UserControl>

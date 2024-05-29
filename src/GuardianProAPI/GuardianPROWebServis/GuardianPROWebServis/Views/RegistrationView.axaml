@@ -1,0 +1,53 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianPROWebServis.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:DataType="viewModels:RegistrationViewModel"
+             x:Class="GuardianPROWebServis.Views.RegistrationView">
+    <Grid>
+        
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <TextBlock Text="Email:"/>
+            <TextBox Text="{Binding Registration.Email}"
+                     Height="25"
+                     Width="200"
+                     Margin="0,15,0,15"/><TextBlock Text="Логин:"/>
+            <TextBox Text="{Binding Registration.Login}"
+                     Height="25"
+                     Width="200"
+                     Margin="0,15,0,15"/>
+            <TextBlock Text="Пароль:"/>
+            <TextBox Text="{Binding Registration.Password}"
+                     Height="25"
+                     Width="200"
+                     Margin="0,15,0,15"/>
+            <Button Command="{Binding RegistrationCommand}" Name="Authorization"
+                    Content="Зарегистрироваться"
+                    Width="200"
+                    Height="30"
+                    HorizontalAlignment="Center">
+                <Button.Styles>
+                    <Style Selector="Button">
+                        <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                    </Style>
+                </Button.Styles>
+            </Button>
+        </StackPanel>
+        <Button Content="Назад"
+                Width="100"
+                Height="30"
+                Background="White"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Command="{Binding GoToAuthorization}">
+            <Button.Styles>
+                <Style Selector="Button">
+                    <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                </Style>
+            </Button.Styles>
+        </Button>
+    </Grid>
+</UserControl>

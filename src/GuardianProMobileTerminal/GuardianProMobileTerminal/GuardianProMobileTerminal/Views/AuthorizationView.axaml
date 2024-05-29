@@ -1,0 +1,29 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianProMobileTerminal.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+             x:DataType="viewModels:AuthorizationViewModel"
+             x:Class="GuardianProMobileTerminal.Views.AuthorizationView">
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style Selector="NumericUpDown">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Margin" Value="0,15,0,15"/>
+        </Style>
+    </UserControl.Styles>
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+        <TextBlock Text="Код:"/>
+        <NumericUpDown ShowButtonSpinner="False" Text="{Binding CodeEmployeeDto.Code}"/>
+        <Button HorizontalAlignment="Center"
+                Content="Войти"
+                Background="Transparent"
+                FontSize="20"
+                Command="{Binding AuthorizationCommand}"/>
+    </StackPanel>
+</UserControl>

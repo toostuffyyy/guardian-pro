@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="GuardianProWebServis/GuardianProWebServis/App.axaml" value="GuardianProWebServis/GuardianProWebServis.Browser/GuardianProWebServis.Browser.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/AllOrdersView.axaml" value="GuardianProWebServis/GuardianProWebServis.Desktop/GuardianProWebServis.Desktop.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/AuthorizationView.axaml" value="GuardianProWebServis/GuardianProWebServis.Desktop/GuardianProWebServis.Desktop.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/GroupVisitView.axaml" value="GuardianProWebServis/GuardianProWebServis.Desktop/GuardianProWebServis.Desktop.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/MainView.axaml" value="GuardianProWebServis/GuardianProWebServis.Browser/GuardianProWebServis.Browser.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/MainWindow.axaml" value="GuardianProWebServis/GuardianProWebServis.Browser/GuardianProWebServis.Browser.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/PersonalVIsitView.axaml" value="GuardianProWebServis/GuardianProWebServis.Browser/GuardianProWebServis.Browser.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/PersonalVisitView.axaml" value="GuardianProWebServis/GuardianProWebServis.Desktop/GuardianProWebServis.Desktop.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/RegistrationView.axaml" value="GuardianProWebServis/GuardianProWebServis.Desktop/GuardianProWebServis.Desktop.csproj" />
+        <entry key="GuardianProWebServis/GuardianProWebServis/Views/SelectOrderView.axaml" value="GuardianProWebServis/GuardianProWebServis.Desktop/GuardianProWebServis.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

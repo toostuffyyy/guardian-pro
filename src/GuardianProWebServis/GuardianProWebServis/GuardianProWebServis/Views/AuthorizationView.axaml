@@ -1,0 +1,44 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianProWebServis.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             MinWidth="720" MinHeight="480"
+             x:DataType="viewModels:AuthorizationViewModel"
+             x:Class="GuardianProWebServis.Views.AuthorizationView">
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style Selector="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Margin" Value="0,15, 0,15 "/>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="Margin" Value="0,10, 0,10"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </UserControl.Styles>
+    
+    <Grid>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                <TextBlock Text="Логин:" />
+                <TextBox Text="{Binding LoginPasswordDto.Login}" 
+                         Watermark="Ivan1234"/>
+                <TextBlock Text="Пароль:"/>
+                <TextBox Text="{Binding LoginPasswordDto.Password}"
+                         Watermark="Bidgj456"/>
+                <Button Command="{Binding AuthorizationCommand}"
+                        Background="White"
+                        Content="Войти"/>
+                <Button Command="{Binding GoToRegistration}"
+                        Background="White"
+                        Content="Регистрация"/>
+            </StackPanel>
+        </Grid>
+</UserControl>

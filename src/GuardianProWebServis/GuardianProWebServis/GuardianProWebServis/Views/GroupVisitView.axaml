@@ -1,0 +1,321 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianProWebServis.ViewModels"
+             xmlns:modelsDto="clr-namespace:GuardianProWebServis.ModelsDTO"
+             mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1080"
+             x:DataType="viewModels:GroupVisitViewModel"
+             x:Class="GuardianProWebServis.Views.GroupVisitView">
+    
+    <UserControl.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style Selector="Border">
+            <Setter Property="CornerRadius" Value="15"/>
+        </Style>
+        <Style Selector="TextBox">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="CornerRadius" Value="5"/>
+        </Style>
+        <Style Selector="ComboBox">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="CornerRadius" Value="5"/>
+        </Style>
+        <Style Selector="AutoCompleteBox">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="CornerRadius" Value="5"/>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="15"/>
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style Selector="NumericUpDown">
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="ShowButtonSpinner" Value="False"/>
+        </Style>
+    </UserControl.Styles>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Grid>
+            <TextBlock Text="Форма записи на посещение мероприятия"
+                       FontSize="40"
+                       Margin="15"/>
+            <Button Content="Выйти"
+                    Command="{Binding GoToBack}"/>
+        </Grid>
+        <Grid Grid.Row="1"
+              Margin="50,0,50,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Border Background="LightGray" Margin="0,0,25,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Border Background="Orange">
+                       <TextBlock Text="Информация для пропуска"
+                                       Margin="15"
+                                       VerticalAlignment="Center"/>
+                    </Border>
+                    <StackPanel Grid.Row="1" Orientation="Vertical" 
+                               Margin="50,5,50,5"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center">
+                        <TextBlock Text="Срок действия заявки:"
+                                   Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="с*" Margin="10"/>
+                            <CalendarDatePicker SelectedDate="{Binding CreateOrderDto.StartDate}" />
+                            <TextBlock Text="по" Margin="10"/>
+                            <CalendarDatePicker SelectedDate="{Binding CreateOrderDto.EndDate}" />
+                        </StackPanel>
+                        <TextBlock Text="Цель посещения"/>
+                        <TextBox Text="{Binding CreateOrderDto.GoalVisit}"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Border Grid.Column="1" Background="LightGray" Margin="25,0,0,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    
+                    <Border Background="Orange">
+                        <TextBlock Text="Сотрудники"
+                                   Margin="15"
+                                   VerticalAlignment="Center"/>
+                    </Border>
+                    <StackPanel Grid.Row="1" Orientation="Vertical" 
+                               Margin="50,25,50,25"
+                               HorizontalAlignment="Left"
+                               VerticalAlignment="Center">
+                        <TextBlock Text="Подразделение:*" 
+                                   HorizontalAlignment="Left" 
+                                   Margin="0,0,0,10"/>
+                        <ComboBox Width="900"
+                                  Items="{Binding DivisionDto}"
+                                  SelectedItem="{Binding SelectedDivision}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Name}"/>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
+                        <TextBlock Text="ФИО:*" HorizontalAlignment="Left" Margin="0,10, 0, 10"/>
+                        <AutoCompleteBox Items="{Binding EmployeeDto}"
+                                         SelectedItem="{Binding SelectedEmployee}">
+                            <AutoCompleteBox.ItemTemplate>
+                                <DataTemplate x:DataType="modelsDto:EmployeeDTO">
+                                    <TextBlock>
+                                        <TextBlock.Text>
+                                            <MultiBinding StringFormat="{}{0} {1} {2}">
+                                                <Binding Path="LastName"/>
+                                                <Binding Path="Name"/>
+                                                <Binding Path="Patronymic"/>
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </AutoCompleteBox.ItemTemplate>
+                        </AutoCompleteBox>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+        <!--Row 2-->
+        <Grid Grid.Row="2" Margin="50,25,50,25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Border Background="LightGray">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                        
+                    <Border Background="Orange">
+                        <TextBlock Text="Информация о посетителе"
+                                   Margin="15"
+                                   VerticalAlignment="Center"/>
+                    </Border>
+                    <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Grid Margin="20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                
+                                <!--Row 0-->
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Фамилия*: " VerticalAlignment="Center" FontSize="20" />
+                                <TextBox Grid.Row="0" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.LastName}"/>
+                                <!--Row 1-->
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="Имя*: " VerticalAlignment="Center" FontSize="20" />
+                                <TextBox Grid.Row="1" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.Name}"/>
+                                <!--Row 2-->
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Отчество*: " VerticalAlignment="Center" FontSize="20" />
+                                <TextBox Grid.Row="2" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.Patronymic}"/>
+                                <!--Row 3-->
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="Телефон: " VerticalAlignment="Center" FontSize="20" />
+                                <TextBox Grid.Row="3" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.PhoneNumber}"/>
+                                <!--Row 4-->
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="Email: " VerticalAlignment="Center" FontSize="20" />
+                                <TextBox Grid.Row="4" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.Email}"/>
+                            </Grid>
+                            <Grid Grid.Column="1" Margin="20">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                
+                                <!--Row 0-->
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Организация: " VerticalAlignment="Center" FontSize="20" />
+                                <TextBox Grid.Row="0" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.Organization}"/>
+                                <!--Row 1-->
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="Примечание: " VerticalAlignment="Center" FontSize="20" />
+                                <TextBox Grid.Row="1" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.Notes}"/>
+                                <!--Row 2-->
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Дата рождения: " VerticalAlignment="Center" FontSize="20" />
+                                <CalendarDatePicker Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" SelectedDate="{Binding SelectedVisitorDto.DateOfBirth}"/>
+                                <!--Row 3-->
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="Серия: " VerticalAlignment="Center" FontSize="20" />
+                                <NumericUpDown Grid.Row="3" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.PassportSeries}"/>
+                                <!--Row 4-->
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="Номер: " VerticalAlignment="Center" FontSize="20" />
+                                <NumericUpDown Grid.Row="4" Grid.Column="1" Width="150" Height="15" Text="{Binding SelectedVisitorDto.PassportNumber}"/>
+                                <!--Row 5-->
+                                <Button Grid.Row="5" 
+                                        Grid.Column="1" 
+                                        Content="Добавить посетителя"
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Bottom"
+                                        Background="#f3f3f3"
+                                        Command="{Binding AddVisitor}"
+                                        BorderBrush="#ff9619"
+                                        BorderThickness="2">
+                                    <Button.Styles>
+                                        <Style Selector="Button">
+                                            <Setter Property="CornerRadius" Value="10"/>
+                                        </Style>
+                                    </Button.Styles>
+                                </Button>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Border>
+                <!--Column 1-->
+                <Border Grid.Column="1" Background="#f3f3f3" CornerRadius="10" Margin="0,0,15,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        
+                        <Border Background="#ff9619" CornerRadius="10">
+                            <TextBlock Text="Список посетителей" Margin="7" HorizontalAlignment="Center"/>
+                        </Border>
+                        <DataGrid Grid.Row="1" Items="{Binding CreateOrderDto.Visitors}" 
+                                  AutoGenerateColumns="False" 
+                                  Background="#f3f3f3">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
+                                <DataGridTextColumn Header="Имя" Binding="{Binding Name}"/>
+                                <DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}"/>
+                                <DataGridTextColumn Header="Телефон" Binding="{Binding PhoneNumber}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </Border>
+            </Grid>
+        <!--Row 3-->
+        <Grid Grid.Row="3" Margin="50,0,50,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Border Background="LightGray">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                            
+                    <Border Background="Orange">
+                        <TextBlock Text="Приклепляемые файлы"
+                                   Margin="15"
+                                   VerticalAlignment="Center"/>
+                    </Border>
+                    <Button Grid.Row="1" 
+                            Content="Приклепить файлы"
+                            HorizontalAlignment="Left"/>
+                </Grid>
+            </Border>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" 
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Button Content="Очистить форму" 
+                        FontSize="45"/>
+                <Button Content="Оформить заявку" 
+                        FontSize="45"
+                        Command="{Binding OrderCommand}"
+                        BorderBrush="Orange"
+                        BorderThickness="5">
+                    <Button.Styles>
+                        <Style Selector="Button">
+                            <Setter Property="CornerRadius" Value="15"/>
+                        </Style>
+                    </Button.Styles>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,50 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:GuardianProMobileTerminal.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+             x:DataType="viewModels:ListOrderViewModel"
+             x:Class="GuardianProMobileTerminal.ViewModels.ListOrderView">
+        <UserControl.Styles>
+            <Style Selector="TextBlock">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+            </Style>
+            <Style Selector="ComboBox">
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Margin" Value="15,0,15,0"/>
+            </Style>
+        </UserControl.Styles>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Фильтрация"/>
+                <ComboBox />
+                <ComboBox />
+                <ComboBox />
+            </StackPanel>
+            <DataGrid Grid.Row="1"
+                      Items="{Binding OrderDto}"
+                      Margin="5">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Поздразделение" Binding="{Binding Employees.Divisions.Name}"/>
+                    <DataGridTextColumn Header="Тип" Binding="{Binding TypeOrder.Name}"/>
+                    <DataGridTextColumn Header="Статус" Binding="{Binding Status.Name}"/>
+                    <DataGridTextColumn Header="Дата начала" Binding="{Binding StartDate}"/>
+                    <DataGridTextColumn Header="Дата окончания" Binding="{Binding EndDate}"/>
+                    <DataGridTextColumn Header="Цель посещения" Binding="{Binding GoalVisit}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

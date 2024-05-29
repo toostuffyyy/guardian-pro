@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/App.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/AllOrdersView.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/AuthorizationView.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/GroupVisitView.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/MainView.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/MainWindow.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/PersonalVisitView.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/RegistrationView.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+        <entry key="GuardianPROWebServis/GuardianPROWebServis/Views/SelectOrderView.axaml" value="GuardianPROWebServis/GuardianPROWebServis.Desktop/GuardianPROWebServis.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

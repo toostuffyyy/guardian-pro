@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 3\\GuardianProMobileTerminal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B160B156-7C74-44BF-BD18-8138AB7D88D4}|GuardianProMobileTerminal\\GuardianProMobileTerminal\\GuardianProMobileTerminal.csproj|a:\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0447\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\training\\\u0441\u0435\u0441\u0441\u0438\u044F 3\\guardianpromobileterminal\\guardianpromobileterminal\\guardianpromobileterminal\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B160B156-7C74-44BF-BD18-8138AB7D88D4}|GuardianProMobileTerminal\\GuardianProMobileTerminal\\GuardianProMobileTerminal.csproj|solutionrelative:guardianpromobileterminal\\guardianpromobileterminal\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 3\\GuardianProMobileTerminal\\GuardianProMobileTerminal\\GuardianProMobileTerminal\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "GuardianProMobileTerminal\\GuardianProMobileTerminal\\Views\\MainWindow.axaml",
+              "ToolTip": "A:\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 (\u0432\u043D\u0435 \u0443\u0447\u0435\u0431\u044B)\\\u0427\u0435\u043C\u043F\u0438\u043E\u043D\u0430\u0442\\Training\\\u0421\u0435\u0441\u0441\u0438\u044F 3\\GuardianProMobileTerminal\\GuardianProMobileTerminal\\GuardianProMobileTerminal\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "GuardianProMobileTerminal\\GuardianProMobileTerminal\\Views\\MainWindow.axaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-23T19:11:56.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

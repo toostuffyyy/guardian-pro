@@ -1,0 +1,51 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:TerminalEmployeeSecurity.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="650"
+             MinWidth="800" MinHeight="650"
+             x:DataType="viewModels:ListApprovedOrdersViewModel"
+             x:Class="TerminalEmployeeSecurity.Views.ListApprovedOrdersView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <!--Top (Row 0)-->
+        <Grid Margin="15">
+            <TextBlock Text="Название компании"/>
+            <Button Content="Выйти" 
+                    HorizontalAlignment="Right"
+                    Background="White"/>
+        </Grid>        
+        <!--Header (Row 1)-->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <!--Filter (Row 0)-->
+            <Grid Margin="15">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Фильтрация:"
+                               FontSize="16"
+                               VerticalAlignment="Center"/>
+                    <ComboBox Width="100" Margin="15,0,15,0"/>
+                    <ComboBox Width="100"/>
+                    <ComboBox Width="100" Margin="15,0,15,0"/>
+                    <TextBox Watermark="ФИО, номер и серия паспорта"
+                             Width="260"/>
+                </StackPanel>
+            </Grid>
+            <!--DataGrid (Row 1)-->
+            <!--<DataGrid Grid.Row="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header=""/>
+                </DataGrid.Columns>
+            </DataGrid>-->
+        </Grid>
+    </Grid>
+</UserControl>

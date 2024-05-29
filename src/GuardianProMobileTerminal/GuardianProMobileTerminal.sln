@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProMobileTerminal", "GuardianProMobileTerminal\GuardianProMobileTerminal\GuardianProMobileTerminal.csproj", "{B160B156-7C74-44BF-BD18-8138AB7D88D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProMobileTerminal.Android", "GuardianProMobileTerminal\GuardianProMobileTerminal.Android\GuardianProMobileTerminal.Android.csproj", "{663CAA3E-2A86-40E4-964F-B6BFA885C8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProMobileTerminal.Desktop", "GuardianProMobileTerminal\GuardianProMobileTerminal.Desktop\GuardianProMobileTerminal.Desktop.csproj", "{1F4A70D5-A390-489F-9EE7-B34E73C98445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProMobileTerminal.iOS", "GuardianProMobileTerminal\GuardianProMobileTerminal.iOS\GuardianProMobileTerminal.iOS.csproj", "{AB89F169-85D4-45D1-B6E7-DB92DB850D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProMobileTerminal.Browser", "GuardianProMobileTerminal\GuardianProMobileTerminal.Browser\GuardianProMobileTerminal.Browser.csproj", "{3075A0DD-440D-4F06-93A7-311915BE5268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B160B156-7C74-44BF-BD18-8138AB7D88D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B160B156-7C74-44BF-BD18-8138AB7D88D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B160B156-7C74-44BF-BD18-8138AB7D88D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B160B156-7C74-44BF-BD18-8138AB7D88D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663CAA3E-2A86-40E4-964F-B6BFA885C8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663CAA3E-2A86-40E4-964F-B6BFA885C8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663CAA3E-2A86-40E4-964F-B6BFA885C8BA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{663CAA3E-2A86-40E4-964F-B6BFA885C8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663CAA3E-2A86-40E4-964F-B6BFA885C8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663CAA3E-2A86-40E4-964F-B6BFA885C8BA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1F4A70D5-A390-489F-9EE7-B34E73C98445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4A70D5-A390-489F-9EE7-B34E73C98445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4A70D5-A390-489F-9EE7-B34E73C98445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4A70D5-A390-489F-9EE7-B34E73C98445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB89F169-85D4-45D1-B6E7-DB92DB850D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB89F169-85D4-45D1-B6E7-DB92DB850D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB89F169-85D4-45D1-B6E7-DB92DB850D8F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AB89F169-85D4-45D1-B6E7-DB92DB850D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB89F169-85D4-45D1-B6E7-DB92DB850D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB89F169-85D4-45D1-B6E7-DB92DB850D8F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3075A0DD-440D-4F06-93A7-311915BE5268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3075A0DD-440D-4F06-93A7-311915BE5268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3075A0DD-440D-4F06-93A7-311915BE5268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3075A0DD-440D-4F06-93A7-311915BE5268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

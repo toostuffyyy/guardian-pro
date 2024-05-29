@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="GuardianProEmployeeDivision/App.axaml" value="GuardianProEmployeeDivision/GuardianProEmployeeDivision.csproj" />
+        <entry key="GuardianProEmployeeDivision/Views/AuthorizationView.axaml" value="GuardianProEmployeeDivision/GuardianProEmployeeDivision.csproj" />
+        <entry key="GuardianProEmployeeDivision/Views/ListOrderView.axaml" value="GuardianProEmployeeDivision/GuardianProEmployeeDivision.csproj" />
+        <entry key="GuardianProEmployeeDivision/Views/MainWindow.axaml" value="GuardianProEmployeeDivision/GuardianProEmployeeDivision.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

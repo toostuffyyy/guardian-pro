@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="GuardianProMobileTerminal/GuardianProMobileTerminal/App.axaml" value="GuardianProMobileTerminal/GuardianProMobileTerminal.Desktop/GuardianProMobileTerminal.Desktop.csproj" />
+        <entry key="GuardianProMobileTerminal/GuardianProMobileTerminal/ViewModels/ListOrderView.axaml" value="GuardianProMobileTerminal/GuardianProMobileTerminal.Desktop/GuardianProMobileTerminal.Desktop.csproj" />
+        <entry key="GuardianProMobileTerminal/GuardianProMobileTerminal/Views/AuthorizationView.axaml" value="GuardianProMobileTerminal/GuardianProMobileTerminal.Desktop/GuardianProMobileTerminal.Desktop.csproj" />
+        <entry key="GuardianProMobileTerminal/GuardianProMobileTerminal/Views/ListOrderView.axaml" value="GuardianProMobileTerminal/GuardianProMobileTerminal.Desktop/GuardianProMobileTerminal.Desktop.csproj" />
+        <entry key="GuardianProMobileTerminal/GuardianProMobileTerminal/Views/MainView.axaml" value="GuardianProMobileTerminal/GuardianProMobileTerminal.Desktop/GuardianProMobileTerminal.Desktop.csproj" />
+        <entry key="GuardianProMobileTerminal/GuardianProMobileTerminal/Views/MainWindow.axaml" value="GuardianProMobileTerminal/GuardianProMobileTerminal.Desktop/GuardianProMobileTerminal.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
